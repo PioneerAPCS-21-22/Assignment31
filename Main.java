@@ -39,9 +39,9 @@ public class Main {
      * @return the sorted array.
      */
     public static double[] ordered(double[] vals) {
-        // Find the smallest value and move it to the front (swap values).
-        // Find the smallest values (starting at index 1) and swap it with the value at index 1.
-        // Repeat for the rest of the array.
+        // Find the smallest value, then move it to the front (swap values).
+        // Find the smallest value starting at index 1, then swap it with the value at index 1.
+        // Repeat for the rest of the array (smallest at index 2, index 3, etc. and swap them).
         // Print the sorted array and then return the sorted array.
 
         
